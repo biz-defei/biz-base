@@ -1,4 +1,4 @@
-# 注册协议
+# 注册上报
 
 注册请求数据模型
 
@@ -7,6 +7,9 @@
     "modulType": "User_Center",
     "host": "https://cas.biz-united.com.cn",
     "description": "用户中心",
+    "ak": "AccessKey",
+    "sk": "SecretKey",
+    "customConfig": "",
     "menuItems": [
         {
             "uniqueId": "M_UserList",
@@ -41,8 +44,9 @@
 | modulType | String | 服务模块类型标识 | User\_Center |
 | host | String | 模块访问地址 | [https://cas.biz-united.com.cn](https://cas.biz-united.com.cn) |
 | description | String | 模块描述 | 用户中心，管理用户账号密码等基础信息 |
-
-
+| ak | String | 公钥 | 不为空的字符串 |
+| sk | String | 密钥 | 长度为32位的字符串 |
+| customConfig | String | 自定义配置 | 任意字符串，推荐JsonString |
 
 MenuItem字段解析
 
@@ -54,8 +58,6 @@ MenuItem字段解析
 | link | String | 跳转连接 | /users.do |
 | authorizations | String | 这个链接本身需要的权限，多个权限用;号分割 | ROLE\_USER;OPT\_USER\_LIST |
 | icon | String | 图标，符合ace标准 | fa fa-list |
-
-
 
 Resource字段解析
 
