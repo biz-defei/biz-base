@@ -21,7 +21,9 @@
             "sk": "SecretKey",
             "customConfig": ""
         }
-    ]
+    ],
+    "code": 200,
+    "msg": ""
 }
 ```
 
@@ -41,8 +43,8 @@ Modul字段解析
 | ak | String | 公钥 | QSemJMtAw7eEeHjc |
 | sk | String | 密钥 | 3TpsNwZVn4GQ5sC2W4W7M3covScC3bKs |
 | customConfig | String | 自定义配置 | 任意字符串，推荐JsonString |
-
-
+| code | Integer | 状态码 | 正常:200, 签名不正确:403 |
+| msg | String | 消息 | 签名不正确，授权未通过 |
 
 
 

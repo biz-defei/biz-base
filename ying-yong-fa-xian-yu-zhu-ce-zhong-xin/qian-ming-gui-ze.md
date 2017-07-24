@@ -9,12 +9,11 @@
 1. ◆ 参数名ASCII码从小到大排序（字典序）；
 2. ◆ 如果参数的值为空不参与签名；
 3. ◆ 参数名区分大小写；
-4. ◆ 验证调用返回或微信主动通知签名时，传送的sign参数不参与签名，将生成的签名与该sign值作校验。
-5. ◆ 微信接口可能增加字段，验证签名时必须支持增加的扩展字段
+4. ◆ 验证调用返回或主动通知签名时，传送的sign参数不参与签名，将生成的签名与该sign值作校验。
 
-第二步，在stringA最后拼接上key得到stringSignTemp字符串，并对stringSignTemp进行MD5运算，再将得到的字符串所有字符转换为大写，得到sign值signValue。
+第二步，在stringA最后拼接上sk得到stringSignTemp字符串，并对stringSignTemp进行MD5运算，再将得到的字符串所有字符转换为大写，得到sign值signValue。
 
-◆ key设置路径：微信商户平台\(pay.weixin.qq.com\)--&gt;账户设置--&gt;API安全--&gt;密钥设置
+◆ sk为被请求modul自行设置，通过sdk上报到服务发现中心，然后下发到各modul中
 
 举例：
 
