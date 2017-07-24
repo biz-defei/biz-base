@@ -30,19 +30,19 @@
 
 第一步：对参数按照key=value的格式，并按照参数名ASCII字典序排序如下：
 
-> stringA="ak=d930ea5d5a258f4f&id=1000&name=test&nonce\_str=ibuaiVcKdpRxkhJA" //注：sk为发起请求的modul的ak
+> stringA="ak=d930ea5d5a258f4f&id=1000&name=test&nonce\_str=ibuaiVcKdpRxkhJA" //注：ak为发起请求的modul的ak
 
 第二步：假设你访问的modul的sk="192006250b4c09247ec02edce69f6a2d"，拼接API签名：
 
 > stringSignTemp=stringA+"&sk=192006250b4c09247ec02edce69f6a2d"//注：sk为被请求的modul的sk
 >
-> sign=MD5\(stringSignTemp\).toUpperCase\(\)="9A0A8659F005D6984697E2CA0A9CF3B7"//注：MD5签名方式
->
-> sign=hash\_hmac\("sha256", stringSignTemp, sk\)//注：HMAC-SHA256签名方式
+> sign=MD5\(stringSignTemp\).toUpperCase\(\)="69B0E43727B2C87A47957B6C2EB6D071"//注：MD5签名方式
 
 最终得到最终发送的数据：
 
-> appid=wxd930ea5d5a258f4f&mch\_id=10000100&device\_info=1000&body=test&nonce\_str=ibuaiVcKdpRxkhJA&sign=9A0A8659F005D6984697E2CA0A9CF3B7
+> ak=d930ea5d5a258f4f&id=1000&name=test&nonce\_str=ibuaiVcKdpRxkhJA&sign=69B0E43727B2C87A47957B6C2EB6D071
 
+### 2、生成随机数算法
 
+微信支付API接口协议中包含字段nonce\_str，主要保证签名不可预测。我们推荐生成随机数算法如下：调用随机数函数生成，将得到的值转换为字符串。
 
