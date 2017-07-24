@@ -30,15 +30,15 @@
 
 第一步：对参数按照key=value的格式，并按照参数名ASCII字典序排序如下：
 
-> stringA="appid=wxd930ea5d5a258f4f&body=test&device\_info=1000&mch\_id=10000100&nonce\_str=ibuaiVcKdpRxkhJA"
+> stringA="ak=d930ea5d5a258f4f&id=1000&name=test&nonce\_str=ibuaiVcKdpRxkhJA" //注：sk为发起请求的modul的ak
 
-第二步：拼接API密钥：
+第二步：假设你访问的modul的sk="192006250b4c09247ec02edce69f6a2d"，拼接API签名：
 
-> stringSignTemp=stringA+"&key=192006250b4c09247ec02edce69f6a2d"//注：key为发起请求的modul的ak
+> stringSignTemp=stringA+"&sk=192006250b4c09247ec02edce69f6a2d"//注：sk为被请求的modul的sk
 >
 > sign=MD5\(stringSignTemp\).toUpperCase\(\)="9A0A8659F005D6984697E2CA0A9CF3B7"//注：MD5签名方式
 >
-> sign=hash\_hmac\("sha256",stringSignTemp,key\)//注：HMAC-SHA256签名方式
+> sign=hash\_hmac\("sha256", stringSignTemp, sk\)//注：HMAC-SHA256签名方式
 
 最终得到最终发送的数据：
 
