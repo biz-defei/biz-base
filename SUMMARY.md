@@ -5,6 +5,8 @@
 * [应用发现与注册中心](ying-yong-fa-xian-yu-zhu-ce-zhong-xin.md)
   * [注册上报](ying-yong-fa-xian-yu-zhu-ce-zhong-xin/zhu-ce-shang-bao.md)
   * [注册下发](ying-yong-fa-xian-yu-zhu-ce-zhong-xin/zhu-ce-xia-fa.md)
+  * [约定](ying-yong-fa-xian-yu-zhu-ce-zhong-xin/yue-ding.md)
+  * [签名规则](ying-yong-fa-xian-yu-zhu-ce-zhong-xin/qian-ming-gui-ze.md)
 * [菜单和权限服务发现现与注册](cai-dan-he-quan-xian-fu-wu-fa-xian-xian-yu-zhu-ce.md)
   * [注册上报](cai-dan-he-quan-xian-fu-wu-fa-xian-xian-yu-zhu-ce/yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai.md)
   * [注册下发](cai-dan-he-quan-xian-fu-wu-fa-xian-xian-yu-zhu-ce/zhu-ce-xia-fa.md)
