@@ -16,4 +16,5 @@
   * [SDK](cai-dan-he-quan-xian-fu-wu-fa-xian-xian-yu-zhu-ce/sdk.md)
 * [用户资源配置信息加载](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai.md)
   * [获取用户资源配置信息](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai/huo-qu-yong-hu-zi-yuan-pei-zhi-xin-xi.md)
+  * [SDK](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai/sdk.md)
 
