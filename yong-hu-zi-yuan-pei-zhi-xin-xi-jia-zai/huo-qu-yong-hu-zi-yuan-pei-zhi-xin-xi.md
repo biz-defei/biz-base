@@ -22,52 +22,13 @@
 
 ```
 {
-    "menus": [
-        {
-            "name": "商品中心",
-            "icon": "fa fa-list",
-            "children": [
-                {
-                    "name": "商品基础数据",
-                    "icon": "fa fa-list",
-                    "children": [
-                        {
-                            "name": "商品管理",
-                            "url": "/products.do",
-                            "icon": "fa fa-list",
-                            "children": []
-                        },
-                        {
-                            "name": "品牌管理",
-                            "url": "/brands.do",
-                            "icon": "fa fa-list",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "name": "商品池",
-                    "icon": "fa fa-list",
-                    "children": [
-                        {
-                            "name": "省公司商品管理",
-                            "url": "/companyProducts.do",
-                            "icon": "fa fa-list",
-                            "children": []
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "grantedAuthorities": [
-        {
-            "authority": "ROLE_PRODUCT"
-        },
-        {
-            "authority": "OPT_PRODUCT_EDIT"
-        }
-    ]
+    "data": {
+        "key1": "value1",
+        "key2": "{}",
+        "key3": "[]"
+    },
+    "code": 200,
+    "msg": ""
 }
 ```
 
@@ -92,7 +53,6 @@ GrantedAuthority字段说明
 | 字段 | 数据类型 | 描述 | 示例 |
 | :--- | :--- | :--- | :--- |
 | authority | String | 权鉴字符串 | ROLE\_PRODUCT,OPT\_PRODUCT\_EDIT |
-
 
 
 
