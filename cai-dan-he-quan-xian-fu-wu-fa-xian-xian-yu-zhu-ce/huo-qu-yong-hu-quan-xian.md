@@ -67,7 +67,9 @@
         {
             "authority": "OPT_PRODUCT_EDIT"
         }
-    ]
+    ],
+    "code": 200,
+    "msg": ""
 }
 ```
 
