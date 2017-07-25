@@ -39,4 +39,10 @@
 | data | JsonObject | 配置信息的一个map | {"id":1} |
 
 
+统一状态码参看[通讯数据模型约定](/tong-xun-shu-ju-mo-xing-yue-ding.md)
 
+其它状态码说明
+
+| code | 描述 |
+| :--- | :--- |
+| xxx | xxx |
