@@ -36,23 +36,7 @@
 
 | 字段 | 数据类型 | 描述 | 示例 |
 | :--- | :--- | :--- | :--- |
-| menus | JsonArray | 菜单列表 | 如上的Jso，成员参看menu字段说明 |
-| grantedAuthorities | JsonArray | 用户拥在的权限列表 | 参看GrantedAuthority字段说明 |
-
-menu字段说明
-
-| 字段 | 数据类型 | 描述 | 示例 |
-| :--- | :--- | :--- | :--- |
-| name | String | 名称 | 商品中心 |
-| icon | String | 图标 | fa fa-list |
-| url | String | 点击跳转链接 | /products.do |
-| children | JsonArray | 子菜单 | Array中内容参看本身 |
-
-GrantedAuthority字段说明
-
-| 字段 | 数据类型 | 描述 | 示例 |
-| :--- | :--- | :--- | :--- |
-| authority | String | 权鉴字符串 | ROLE\_PRODUCT,OPT\_PRODUCT\_EDIT |
+| data | JsonObject | 配置信息的一个map | {"id":1} |
 
 
 
