@@ -14,6 +14,9 @@
 
 | 字段 | 数据类型 | 描述 | 示例 |
 | :--- | :--- | :--- | :--- |
-| unionId | String | 统一用户id | 402847955d65df07015d65dfbebf0001 |
-| modulType | String | 服务模块类型标识 | ProductCenter |
+| code | Integer | 状态码 | 查看状态码报表 |
+| msg | String | 给用户的消息 | 签名不正确 |
+| data | Object | 返回的数据 | 类型根据用户返回的数据自适配 |
+
+
 
