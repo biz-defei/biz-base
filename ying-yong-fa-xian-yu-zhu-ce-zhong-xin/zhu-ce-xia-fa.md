@@ -43,7 +43,7 @@ Modul字段解析
 | ak | String | 公钥 | QSemJMtAw7eEeHjc |
 | sk | String | 密钥 | 3TpsNwZVn4GQ5sC2W4W7M3covScC3bKs |
 | customConfig | String | 自定义配置 | 任意字符串，推荐JsonString |
-| code | Integer | 状态码 | 正常:200, 签名不正确:403 |
+| code | Integer | 状态码 | 参看[通讯数据模型约定](/tong-xun-shu-ju-mo-xing-yue-ding.md)，或状态码说明表 |
 | msg | String | 消息 | 签名不正确，授权未通过 |
 
 
