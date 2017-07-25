@@ -2,6 +2,7 @@
 
 * [序言](README.md)
 * [简介](chapter1.md)
+* [通讯数据模型约定](tong-xun-shu-ju-mo-xing-yue-ding.md)
 * [应用发现与注册中心](ying-yong-fa-xian-yu-zhu-ce-zhong-xin.md)
   * [注册上报](ying-yong-fa-xian-yu-zhu-ce-zhong-xin/zhu-ce-shang-bao.md)
   * [注册下发](ying-yong-fa-xian-yu-zhu-ce-zhong-xin/zhu-ce-xia-fa.md)
