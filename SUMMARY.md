@@ -19,5 +19,5 @@
   * [SDK](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai/sdk.md)
 * [组织机构服务模块](zu-zhi-ji-gou-fu-wu-mo-kuai.md)
   * [获取用户组织机构](zu-zhi-ji-gou-fu-wu-mo-kuai/huo-qu-yong-hu-zu-zhi-ji-gou.md)
-  * SDK
+  * [SDK](zu-zhi-ji-gou-fu-wu-mo-kuai/sdk.md)
 
