@@ -17,4 +17,7 @@
 * [用户资源配置信息加载](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai.md)
   * [获取用户资源配置信息](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai/huo-qu-yong-hu-zi-yuan-pei-zhi-xin-xi.md)
   * [SDK](yong-hu-zi-yuan-pei-zhi-xin-xi-jia-zai/sdk.md)
+* [组织机构服务模块](zu-zhi-ji-gou-fu-wu-mo-kuai.md)
+  * [获取用户组织机构](zu-zhi-ji-gou-fu-wu-mo-kuai/huo-qu-yong-hu-zu-zhi-ji-gou.md)
+  * SDK
 
